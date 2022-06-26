@@ -1,0 +1,717 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+.padding-bottom-60 {
+  padding-bottom: 60px;
+}
+
+.form-control {
+  background: #ffffff;
+  border: 2.5px solid #e7e7e7;
+  border-radius: 8px;
+  box-shadow: none !important;
+}
+
+.form-control:hover,
+.form-control:focus {
+  background: #ffffff;
+  border: 2.5px solid #51b0ed;
+  border-radius: 8px;
+}
+
+
+
+/* collaps button start */
+.animated-icon1 {
+  width: 30px;
+  height: 15px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-icon1 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+body[dir="rtl"] .animated-icon1 span {
+  right: 0;
+  left: inherit !important;
+}
+
+.animated-icon1 span {
+  background: black;
+}
+
+.animated-icon1 span:nth-child(1) {
+  top: 0;
+}
+
+/* .animated-icon1 span:nth-child(2) {
+  top: 10px;
+  visibility: hidden;
+} */
+
+.animated-icon1 span:nth-child(3) {
+  top: 15px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+  top: 8px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: inherit !important;
+  right: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+  top: 8px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.navbar-light .navbar-toggler {
+  padding: 12px;
+  background-color: white;
+  color: white;
+  border: none;
+}
+
+/* header css start */
+
+#header .nav-link {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #2C3951;
+}
+#header .buttonGroup {
+  width: 100px;
+  background: #DEF0FF;
+  border-radius: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .buttonGroup>.btnText {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+}
+#header .buttonGroup>.tanslateBtn {
+  border-radius: 22px;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DEF0FF;
+}
+#header .buttonGroup>.active {
+  background: #51B0ED;
+  color: white;
+}
+
+/* welcome css start */
+
+#welcome .welcomeTitle {
+  font-family: "Uni Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 73px;
+  color: #51b0ed;
+}
+
+#welcome .welcomeGoh {
+  font-family: "Uni Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 97px;
+  color: #0c1217;
+}
+
+#welcome .welcomeText {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+  color: #4a4e51;
+}
+#welcome .app-down-image {
+  margin-top: 60px;
+}
+
+#welcome .mobile-tansfrom {
+  position: relative;
+  margin-top: 150px;
+}
+
+#welcome .mobile-tansfrom .card-right {
+  background-image: url(../assets/welcome/Group39221.png);
+  position: absolute;
+  right: -50px;
+
+  padding: 10px;
+  background-size: cover;
+  background-position: 100%;
+  width: 330px;
+  height: 150px;
+  border: none;
+  top: -46px;
+  transition: all 600ms;
+}
+
+#welcome .mobile-tansfrom .card-right:hover {
+  right: -100px;
+  transition: all 600ms;
+  width: 350px;
+}
+
+#welcome .mobile-tansfrom .card-center-right {
+  background-image: url(../assets/welcome/Group39325.png);
+  position: absolute;
+  right: -170px;
+
+  padding: 10px;
+  background-size: cover;
+  background-position: 100%;
+  width: 50%;
+  height: 88px;
+  border: none;
+  top: 44%;
+  transition: all 600ms;
+}
+
+#welcome .mobile-tansfrom .card-center-right:hover {
+  width: 88%;
+  transition: all 600ms;
+}
+
+#welcome .mobile-tansfrom .card-bottom-left {
+  background-image: url(../assets/welcome/Group39324.png);
+  position: absolute;
+  left: -125px;
+  padding: 10px;
+  background-size: cover;
+  background-position: 100%;
+  width: 54%;
+  height: 88px;
+  border: none;
+  bottom: -11%;
+  transition: all 600ms;
+}
+#welcome .mobile-tansfrom .card-bottom-left:hover {
+  transition: all 600ms;
+  width: 88%;
+}
+
+#welcome .mobile-tansfrom .card-right .btn-requset {
+  background: #51b0ed;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+/* about css start */
+
+#about {
+  margin-top: 60px;
+}
+#about .about-container {
+  background: #f5feff;
+  border-radius: 32px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-bottom: 120px;
+}
+
+#about .aboutTitle {
+  font-family: "Uni Neue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 70px;
+  text-align: center;
+  color: #0c1217;
+}
+
+#about .aboutText {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 44px;
+  color: #0c1217;
+
+  /* text-align: justify; */
+}
+
+/* feature css start */
+#feature {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #fff;
+}
+
+#feature .feature-header {
+  text-align: center;
+  padding-bottom: 47px;
+}
+
+#feature .feature-header .feature-header-title {
+  font-family: 'Uni Neue';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 70px;
+  text-align: center;  
+  color: #0C1217;
+}
+
+#feature .features-img-div,
+#feature .features-img-div img {
+  height: 100%;
+}
+
+#feature .feature-card .feature-card-header .feature-card-header-title {
+  font-family: 'Uni Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;  
+  color: #0C1217;
+}
+
+#feature .feature-card .feature-card-header .feature-card-header-disc,
+#feature .feature-card .feature-card-header-disc {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px; 
+  
+  color: #4C4F4D;
+  
+}
+
+#feature .feature-card .feature-card-body .feature-card-body-checkmark li {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  list-style: none;
+  margin-bottom: 18px;
+  /* identical to box height, or 187% */
+  
+  
+  color: #0C1217;
+  padding: 0.25em 0 0 2.5em;
+  position: relative;
+}
+
+body[dir="rtl"]
+  #feature
+  .feature-card
+  .feature-card-body
+  .feature-card-body-checkmark
+  li {
+    padding: 0.25em 0 0 2.5em !important;
+}
+
+
+#feature .feature-card .feature-card-body .feature-card-body-checkmark li::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  width: 28px;
+  height: 30px;
+  top: 1px;
+  background: url("../assets/features/tick-circle.png") no-repeat;
+}
+
+body[dir="rtl"]
+  #feature
+  .feature-card
+  .feature-card-body
+  .feature-card-body-checkmark
+  li::before {
+    left: inherit !important;
+    right:  -5px;
+}
+
+#feature .feature-card .feature-card-body .explore li::before {
+  background: url("../assets/features/explore.png") no-repeat;
+}
+
+#feature .feature-card .feature-card-body .stationary li::before {
+  background: url("../assets/features/stationary.png") no-repeat;
+}
+
+#feature .feature-card .feature-card-body .online-ordering li::before {
+  background: url("../assets/features/online-ordering.png") no-repeat;
+}
+
+/* stories css start */
+#stories {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: linear-gradient(180deg, #f2fffb 0%, rgba(242, 255, 251, 0) 100%);
+}
+
+#stories .stories-head .stories-head-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 79px;
+  text-align: center;
+  color: #101e16;
+}
+
+#stories .stories-head {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#stories .stories-head .stories-head-title {
+  font-family: "Uni Neue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #0c1217;
+}
+
+#stories .mobile-stories {
+  display: none;
+}
+
+#stories .mobile-stories .col-sm-6 {
+  padding: 7px !important;
+}
+
+#stories .mobile-stories .stories-img {
+  border-radius: 20px;
+  position: relative;
+  background-size: cover !important;
+  height: 300px;
+  background-repeat: no-repeat !important;
+}
+
+#stories #stories-slider .stories-img {
+  border-radius: 20px;
+  position: relative;
+  background-size: cover;
+}
+
+#stories .mobile-stories .stories-img .stories-overfly {
+  position: absolute;
+  bottom: 20px;
+
+  display: block !important;
+}
+
+#stories #stories-slider .stories-img .stories-overfly {
+  position: absolute;
+  left: -150px;
+  transition: all 600ms;
+  bottom: 30px;
+  visibility: hidden;
+}
+
+#stories #stories-slider .stories-img:hover .stories-overfly,
+#stories #stories-slider .stories-img:focus .stories-overfly {
+  left: 20px;
+  transition: all 600ms;
+  visibility: visible;
+}
+
+#stories #stories-slider .stories-img .stories-overfly .stories-overfly-title,
+#stories .mobile-stories .stories-img .stories-overfly .stories-overfly-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+#stories
+  #stories-slider
+  .stories-img
+  .stories-overfly
+  .stories-overfly-title:hover {
+  opacity: 0.7;
+}
+
+#stories #stories-slider .stories-img-4 {
+  margin-top: 30px;
+}
+#stories #stories-slider .stories-img-2 .stories-overfly,
+#stories #stories-slider .stories-img-3 .stories-overfly {
+  bottom: 5px;
+}
+
+#stories #stories-slider .stories-img-1,
+#stories #stories-slider .stories-img-2,
+#stories #stories-slider .stories-img-3,
+#stories #stories-slider .stories-img-4 {
+  height: 334px !important;
+}
+
+/* stories image overlay */
+
+.text-overlap {
+  position: relative !important;
+}
+#stories .mobile-stories .stories-img .card-overlay {
+  opacity: 1 !important;
+  background: initial !important;
+}
+
+.card-overlay {
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: rgba(14, 14, 14, 0.542);
+  border-radius: 18px;
+}
+
+.text-overlap:hover .card-overlay {
+  opacity: 1;
+}
+
+#service .joinUs {
+  font-family: 'Uni Neue';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;  
+ 
+  text-transform: uppercase;  
+  color: #6EECC7;
+}
+#service .serviceTitle {
+  font-family: 'Uni Neue';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 70px;
+  color: #0C1217;
+}
+#service .serviceInfo {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #3F474E;
+}
+
+#contact {
+  padding-top: 120px;
+  background: #F9F9F9;
+}
+#contact .title {
+  font-family: 'Uni Neue';
+font-style: normal;
+font-weight: 800;
+font-size: 52px;
+line-height: 70px;
+text-align: center;
+color: #0C1217;
+}
+#contact .input-label{
+  display: block;
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+color: #0C1217;
+}
+#contact .input-field{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #717B84;
+border: 1.5px solid #F2F2F2;
+border-radius: 12px;
+}
+#contact textarea{
+  background: #FFFFFF;
+border: 1.5px solid #F2F2F2;
+border-radius: 12px;
+height: 200px;
+}
+#contact .sendbtn{
+  font-family: 'Uni Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+  border: none;
+  background: #51B0ED;
+box-shadow: 0px 18px 40px rgba(60, 164, 254, 0.22);
+border-radius: 12px;
+}
+
+/* footer css start */
+#footer {
+  background:   #0C1217;
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+
+#footer .social-side .social-side-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 57px;
+  color: #ffffff;
+}
+
+#footer .social-side .social-side-sub-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+
+  color: #ffffff;
+
+  opacity: 0.9;
+}
+
+#footer  .social {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  /* padding-left: 0px !important; */
+  margin-bottom: 18.5px;
+}
+
+#footer .social-side {
+  text-align: left;
+}
+
+body[dir="rtl"] #footer .social-side {
+  text-align: right;
+}
+
+body[dir="rtl"] #footer .download-side {
+  text-align: left;
+}
+
+/* 
+body[dir="rtl"] #footer .social-side {
+  text-align: right ;
+} */
+
+#footer  .social li a {
+  background: #8c9d94;
+  border-radius: 50%;
+  padding: 8px 10px 8px 10px;
+  display: flex;
+  align-items: center;
+  color: #101e16;
+  text-decoration: none;
+}
+
+body[dir="rtl"] #footer  .social {
+  padding: 0px !important;
+}
+
+#footer .social li a.pinterest {
+  padding: 8px 9px 8px 9px;
+}
+
+#footer .social li a:hover,
+#footer .social li a:focus {
+  background: #fff;
+}
+
+#footer .social-media {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  
+  
+  
+  color: #FFFFFF;
+  
+  opacity: 0.9;
+}
+#footer .copy_rights .rights {
+  padding-top: 16px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+}
+#footer .copy_rights .rights {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+

@@ -1,0 +1,499 @@
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  #welcome .app-down-image > img {
+    width: 140px;
+  }
+
+  #welcome .app-down-google {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+}
+.mobile-show {
+  display: none !important;
+}
+.dasktop-show .welcomeImg {
+  max-width: 70%;
+}
+@media only screen and (max-width: 1500px) {
+  #stories-slider .slick-prev {
+    left: -3%;
+  }
+  #stories-slider .slick-next {
+    right: -3%;
+  }
+
+  .dasktop-show .welcomeImg {
+    max-width: 60%;
+  }
+  
+  #welcome .mobile-tansfrom .card-center-right:hover {
+    width: 88%;
+    transition: all 600ms;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .dasktop-show {
+    display: none !important;
+  }
+
+  .mobile-show {
+    display: block !important;
+  }
+
+  #stories-slider .slick-prev {
+    left: 0;
+  }
+  #stories-slider .slick-next {
+    right: 0;
+  }
+  #stories-slider .slick-arrow {
+    width: 50px;
+    height: 50px;
+  }
+  /* Styles */
+}
+
+@media only screen and (max-width: 992px) {
+  #stories-slider .slick-prev {
+    left: -3%;
+  }
+
+  #stories-slider .slick-next {
+    right: -3%;
+  }
+
+  #stories #stories-slider .stories-img-1 {
+    height: 500px;
+  }
+
+  #stories #stories-slider .stories-img-2,
+  #stories #stories-slider .stories-img-3,
+  #stories #stories-slider .stories-img-4 {
+    height: 235px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .padding-bottom-60 {
+    padding-bottom: 30px;
+  }
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feature-card-header-disc {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4c4f4d;
+  }
+
+  .btn-see-all {
+    margin-top: 30px;
+    width: 124px;
+    height: 48px;
+    padding: 12px 30px;
+    background: #41b06b;
+    box-shadow: 0px 18px 40px rgba(65, 176, 107, 0.18);
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  #stories {
+    padding-top: 0px;
+    padding-bottom: 45px;
+    background: #e8faef;
+  }
+
+  #stories .mobile-stories {
+    display: flex;
+  }
+
+  #stories #stories-slider {
+    display: none;
+  }
+
+  #stories #stories-slider .stories-img .stories-overfly,
+  #stories .mobile-stories .stories-img .stories-overfly {
+    position: absolute;
+    left: 15px;
+    bottom: 24px;
+  }
+
+  #stories #stories-slider .stories-img-2,
+  #stories #stories-slider .stories-img-3,
+  #stories #stories-slider .stories-img-4 {
+    margin-top: 30px;
+  }
+
+  #stories-slider .slick-prev {
+    left: 1.5%;
+  }
+
+  #stories-slider .slick-next {
+    right: 1.5%;
+  }
+
+  #stories-slider .slick-arrow {
+    top: -10% !important;
+  }
+
+  #stories-slider .slick-prev {
+    left: 1.5%;
+  }
+
+  #stories-slider .slick-next {
+    right: 1.5%;
+  }
+
+  #stories-slider .slick-arrow {
+    top: -10% !important;
+  }
+
+  #welcome .welcomeTitle,
+  #welcome .welcomeGoh {
+    font-size: 50px;
+  }
+
+  #feature {
+    padding-top: 40px;
+  }
+
+  #feature .feature-header {
+    padding-bottom: 30px;
+  }
+
+  #feature .feature-header .feature-header-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 43px;
+    text-align: center;
+  }
+
+  #feature .feature-card-header-title,
+  #feature .feature-card .feature-card-header .feature-card-header-title {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 15px;
+
+    color: #101e16;
+  }
+
+
+  .container,
+  .container-sm {
+    max-width: 100%;
+  }
+
+
+  /* Styles */
+
+  #header .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #101e16;
+  }
+
+  #header .tanslateBtn-group {
+    margin-top: 40px;
+  }
+
+  #welcome .welcomeTitle,
+  #welcome .welcomeGoh {
+    font-size: 40px;
+  }
+
+  #welcome .welcomeText {
+    text-align: center;
+  }
+
+  #welcome .app-down-image {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  #welcome .app-down-image > img {
+    width: 150px;
+  }
+
+  #about {
+    padding-top: 30px;
+  }
+
+  #about .aboutTitle {
+    font-size: 26px;
+    line-height: 30px;
+    padding-bottom: 15px;
+  }
+
+  #about .aboutText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  #feature .features-img-div {
+    height: auto;
+  }
+
+  #feature .features-img-div > img {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #stories .stories-head {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  #stories .stories-head .stories-head-title {
+    font-size: 26px;
+  }
+
+  
+
+  
+  #footer {
+    padding-bottom: 50px;
+  }
+
+  #footer .social-side .social-side-sub-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  #footer .social-side .social-side-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  #footer .download-side img {
+    width: 160px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #stories .mobile-stories .stories-img {
+    height: 200px;
+  }
+
+  #stories .mobile-stories .stories-img .stories-overfly {
+    bottom: 15px;
+  }
+
+  #stories
+    .mobile-stories
+    .stories-img
+    .stories-overfly
+    .stories-overfly-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3 !important;
+    margin-bottom: 0px;
+  }
+
+  #footer .custom-order {
+    order: -1;
+    margin-bottom: 20px;
+  }
+
+  #footer .social-side {
+    text-align: center;
+  }
+
+  #footer .download-side img {
+    width: 140px;
+    height: 50px;
+  }
+
+  #footer .download-side {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  body[dir="rtl"] #footer .social-side {
+    text-align: center;
+  }
+
+  body[dir="rtl"] #footer .download-side {
+    text-align: center;
+  }
+
+  /* Styles */
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  #stories .mobile-stories .stories-img {
+    height: 122px;
+  }
+
+  #stories-slider .slick-arrow {
+    padding: 10px 14px;
+  }
+
+  #stories .mobile-stories .stories-img {
+    height: 122px;
+  }
+
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+
+/**********
+  iPad 3
+  **********/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */
+}

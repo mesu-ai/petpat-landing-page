@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('UniNeueRegular.woff2') format('woff2'),
+        url('UniNeueRegular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('UniNeueBold.woff2') format('woff2'),
+        url('UniNeueBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('UniNeueLight.woff2') format('woff2'),
+        url('UniNeueLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('UniNeueLight.woff2') format('woff2'),
+        url('UniNeueLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
