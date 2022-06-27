@@ -1,15 +1,22 @@
-@media only screen and (min-width:1400px) {
-  #welcome .welcomeText, #service .serviceInfo{
+@media only screen and (min-width: 1400px) {
+  #welcome .welcomeText,
+  #service .serviceInfo {
     width: 456px;
-    text-align: justify;
-
+    align-items: justify;
   }
-  
 }
 
+
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-  #welcome .app-down-image > img {
-    width: 140px;
+
+  #welcome .welcomeText,
+  #service .serviceInfo {
+    width: 400px;
+    align-items: justify;
+  }
+
+  #welcome .app-down-image > img, #service .app-down-image > img {
+    width: 170px;
   }
 
   #welcome .app-down-google {
@@ -24,7 +31,6 @@
   max-width: 70%;
 }
 @media only screen and (max-width: 1500px) {
-  
   #stories-slider .slick-prev {
     left: -3%;
   }
@@ -35,7 +41,7 @@
   .dasktop-show .welcomeImg {
     max-width: 60%;
   }
-  
+
   #welcome .mobile-tansfrom .card-center-right:hover {
     width: 88%;
     transition: all 600ms;
@@ -92,8 +98,8 @@
     justify-content: center;
     align-items: center;
   }
+
   .feature-card-header-disc {
-    font-family: "Axiforma";
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -128,6 +134,9 @@
 
   #stories .mobile-stories {
     display: flex;
+  }
+  #stories .stories-mobile-img {
+    height: 400px !important;
   }
 
   #stories #stories-slider {
@@ -194,22 +203,20 @@
 
   #feature .feature-card-header-title,
   #feature .feature-card .feature-card-header .feature-card-header-title {
-    font-family: "Axiforma";
+    font-family: "Uni Neue";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 29px;
-    margin-top: 15px;
+    line-height: 24px;
+    text-align: center;
 
-    color: #101e16;
+    color: #0c1217;
   }
-
 
   .container,
   .container-sm {
     max-width: 100%;
   }
-
 
   /* Styles */
 
@@ -219,7 +226,7 @@
     align-items: center;
 
     margin-top: 10px;
-    font-family: "Axiforma";
+
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -238,16 +245,17 @@
     font-size: 40px;
   }
 
-  #welcome .welcomeText {
+  #welcome .welcomeText, #service .serviceInfo {
     text-align: center;
   }
 
-  #welcome .app-down-image {
+  #welcome .app-down-image, #service .app-down-image {
     text-align: center;
     margin-top: 30px;
   }
+  
 
-  #welcome .app-down-image > img {
+  #welcome .app-down-image > img, #service .app-down-image > img {
     width: 150px;
   }
 
@@ -287,9 +295,6 @@
     font-size: 26px;
   }
 
-  
-
-  
   #footer {
     padding-bottom: 50px;
   }
@@ -314,6 +319,29 @@
 }
 
 @media only screen and (max-width: 576px) {
+  #contact from{
+  padding: 27px;
+}
+  #footer {
+    padding-bottom: 0px;
+}
+  #footer .social-side .social-side-title {
+    margin-bottom: 37px;
+  }
+  #footer .copy_rights {
+    margin-top: 0px;
+
+    border-top: none;
+  }
+  #footer .social {
+    justify-content: center;
+  }
+  #footer .social .social-item:last-child {
+    padding-right: 0px !important;
+  }
+  #stories .stories-mobile-img {
+    height: 270px !important;
+  }
   #stories .mobile-stories .stories-img {
     height: 200px;
   }
@@ -367,16 +395,15 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles */
+  #stories .stories-mobile-img {
+    height: 200px !important;
+  }
   #stories .mobile-stories .stories-img {
-    height: 122px;
+    height: 150px;
   }
 
   #stories-slider .slick-arrow {
     padding: 10px 14px;
-  }
-
-  #stories .mobile-stories .stories-img {
-    height: 122px;
   }
 
   /* Styles */

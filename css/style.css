@@ -690,6 +690,10 @@ body[dir="rtl"] #footer .social {
   padding: 0px !important;
 }
 
+#footer .social li.social-item {
+  padding-left: 13px;
+  padding-right: 13px;
+}
 #footer .social li a.pinterest {
   padding: 8px 9px 8px 9px;
 }
