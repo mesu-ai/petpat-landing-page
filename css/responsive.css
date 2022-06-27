@@ -1,6 +1,7 @@
 @media only screen and (min-width:1400px) {
-  #welcome .welcomeText{
+  #welcome .welcomeText, #service .serviceInfo{
     width: 456px;
+    text-align: justify;
 
   }
   
