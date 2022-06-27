@@ -121,7 +121,7 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 23px;
   color: #2C3951;
 }
@@ -402,7 +402,8 @@ body[dir="rtl"]
 #stories {
   padding-top: 80px;
   padding-bottom: 80px;
-  background: linear-gradient(180deg, #f2fffb 0%, rgba(242, 255, 251, 0) 100%);
+  background: linear-gradient(180deg, #F2FFFB 0%, rgba(242, 255, 251, 0) 100%);
+  
 }
 
 #stories .stories-head .stories-head-title {
@@ -535,6 +536,11 @@ body[dir="rtl"]
   opacity: 1;
 }
 
+#service {
+  
+background: #F7F7FF;
+}
+
 #service .joinUs {
   font-family: 'Uni Neue';
   font-style: normal;
@@ -563,7 +569,7 @@ body[dir="rtl"]
 }
 
 #contact {
-  padding-top: 120px;
+
   background: #F9F9F9;
 }
 #contact .title {
