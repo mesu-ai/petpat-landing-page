@@ -22,8 +22,6 @@
   border-radius: 8px;
 }
 
-
-
 /* collaps button start */
 .animated-icon1 {
   width: 30px;
@@ -117,41 +115,46 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 
 /* header css start */
 
+#header{
+  border: 1.5px solid #ECECEC;
+}
+
 #header .nav-link {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
-  color: #2C3951;
+  color: #2c3951;
 }
 #header .buttonGroup {
-  width: 100px;
-  background: #DEF0FF;
+  background: rgb(222, 240, 255);
   border-radius: 23px;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: none;
+  border: none !important;
 }
-#header .buttonGroup>.btnText {
-  font-family: 'Axiforma';
+#header .buttonGroup > .btnText {
+  font-family: "Uni Neue";
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
   line-height: 20px;
   text-align: center;
 }
-#header .buttonGroup>.tanslateBtn {
+#header .buttonGroup > .tanslateBtn {
   border-radius: 22px;
   width: 50px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #DEF0FF;
+  background: #def0ff;
 }
-#header .buttonGroup>.active {
-  background: #51B0ED;
+#header .buttonGroup > .active {
+  background: #51b0ed;
   color: white;
 }
 
@@ -181,6 +184,7 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
+  /* text-align: justify; */
 
   color: #4a4e51;
 }
@@ -305,13 +309,13 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 }
 
 #feature .feature-header .feature-header-title {
-  font-family: 'Uni Neue';
+  font-family: "Uni Neue";
   font-style: normal;
   font-weight: 800;
   font-size: 52px;
   line-height: 70px;
-  text-align: center;  
-  color: #0C1217;
+  text-align: center;
+  color: #0c1217;
 }
 
 #feature .features-img-div,
@@ -320,28 +324,27 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 }
 
 #feature .feature-card .feature-card-header .feature-card-header-title {
-  font-family: 'Uni Neue';
+  font-family: "Uni Neue";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
-  line-height: 46px;  
-  color: #0C1217;
+  line-height: 46px;
+  color: #0c1217;
 }
 
 #feature .feature-card .feature-card-header .feature-card-header-disc,
 #feature .feature-card .feature-card-header-disc {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 28px; 
-  
-  color: #4C4F4D;
-  
+  line-height: 28px;
+
+  color: #4c4f4d;
 }
 
 #feature .feature-card .feature-card-body .feature-card-body-checkmark li {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -349,9 +352,8 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   list-style: none;
   margin-bottom: 18px;
   /* identical to box height, or 187% */
-  
-  
-  color: #0C1217;
+
+  color: #0c1217;
   padding: 0.25em 0 0 2.5em;
   position: relative;
 }
@@ -362,11 +364,14 @@ body[dir="rtl"]
   .feature-card-body
   .feature-card-body-checkmark
   li {
-    padding: 0.25em 0 0 2.5em !important;
+  padding: 0.25em 0 0 2.5em !important;
 }
 
-
-#feature .feature-card .feature-card-body .feature-card-body-checkmark li::before {
+#feature
+  .feature-card
+  .feature-card-body
+  .feature-card-body-checkmark
+  li::before {
   content: "";
   position: absolute;
   left: -5px;
@@ -382,8 +387,8 @@ body[dir="rtl"]
   .feature-card-body
   .feature-card-body-checkmark
   li::before {
-    left: inherit !important;
-    right:  -5px;
+  left: inherit !important;
+  right: -5px;
 }
 
 #feature .feature-card .feature-card-body .explore li::before {
@@ -402,8 +407,7 @@ body[dir="rtl"]
 #stories {
   padding-top: 80px;
   padding-bottom: 80px;
-  background: linear-gradient(180deg, #F2FFFB 0%, rgba(242, 255, 251, 0) 100%);
-  
+  background: linear-gradient(180deg, #f2fffb 0%, rgba(242, 255, 251, 0) 100%);
 }
 
 #stories .stories-head .stories-head-title {
@@ -537,94 +541,95 @@ body[dir="rtl"]
 }
 
 #service {
-  
-background: #F7F7FF;
+  background: #f7f7ff;
 }
 
 #service .joinUs {
-  font-family: 'Uni Neue';
+  font-family: "Uni Neue";
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
-  line-height: 41px;  
- 
-  text-transform: uppercase;  
-  color: #6EECC7;
+  line-height: 41px;
+
+  text-transform: uppercase;
+  color: #6eecc7;
 }
 #service .serviceTitle {
-  font-family: 'Uni Neue';
+  font-family: "Uni Neue";
   font-style: normal;
   font-weight: 800;
   font-size: 52px;
   line-height: 70px;
-  color: #0C1217;
+  color: #0c1217;
 }
 #service .serviceInfo {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 34px;
-  color: #3F474E;
+  color: #3f474e;
 }
 
 #contact {
-
-  background: #F9F9F9;
+  background: #f9f9f9;
 }
 #contact .title {
-  font-family: 'Uni Neue';
-font-style: normal;
-font-weight: 800;
-font-size: 52px;
-line-height: 70px;
-text-align: center;
-color: #0C1217;
+  font-family: "Uni Neue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 70px;
+  text-align: center;
+  color: #0c1217;
 }
-#contact .input-label{
+#contact .input-label {
   display: block;
-  font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 28px;
-color: #0C1217;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0c1217;
+  margin-bottom: 12px;
 }
-#contact .input-field{
-  font-family: 'Mulish';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 28px;
-color: #717B84;
-border: 1.5px solid #F2F2F2;
-border-radius: 12px;
+#contact .input-field {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #717b84;
+  border: 1.5px solid #f2f2f2;
+  border-radius: 12px;
+  padding: 17px 24px !important;
 }
-#contact textarea{
-  background: #FFFFFF;
-border: 1.5px solid #F2F2F2;
-border-radius: 12px;
-height: 200px;
+#contact textarea {
+  background: #ffffff;
+  border: 1.5px solid #f2f2f2;
+  border-radius: 12px;
+  height: 200px;
+  padding: 17px 24px !important;
 }
-#contact .sendbtn{
-  font-family: 'Uni Neue';
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 23px;
-text-align: center;
-color: #FFFFFF;
+#contact .sendbtn {
+  font-family: "Uni Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+  padding: 25px 31px !important;
+  color: #ffffff;
   border: none;
-  background: #51B0ED;
-box-shadow: 0px 18px 40px rgba(60, 164, 254, 0.22);
-border-radius: 12px;
+  background: #51b0ed;
+  box-shadow: 0px 18px 40px rgba(60, 164, 254, 0.22);
+  border-radius: 12px;
 }
 
 /* footer css start */
 #footer {
-  background:   #0C1217;
-  padding-top: 150px;
-  padding-bottom: 120px;
+  background: #0c1217;
+  padding-top: 60px;
 }
 
 #footer .social-side .social-side-title {
@@ -646,7 +651,7 @@ border-radius: 12px;
   opacity: 0.9;
 }
 
-#footer  .social {
+#footer .social {
   display: flex;
   align-items: center;
   list-style: none;
@@ -671,7 +676,7 @@ body[dir="rtl"] #footer .social-side {
   text-align: right ;
 } */
 
-#footer  .social li a {
+#footer .social li a {
   background: #8c9d94;
   border-radius: 50%;
   padding: 8px 10px 8px 10px;
@@ -681,12 +686,15 @@ body[dir="rtl"] #footer .social-side {
   text-decoration: none;
 }
 
-body[dir="rtl"] #footer  .social {
+body[dir="rtl"] #footer .social {
   padding: 0px !important;
 }
 
 #footer .social li a.pinterest {
   padding: 8px 9px 8px 9px;
+}
+#footer .social li a.facebook {
+  padding: 8px 11px 8px 11px;
 }
 
 #footer .social li a:hover,
@@ -695,20 +703,21 @@ body[dir="rtl"] #footer  .social {
 }
 
 #footer .social-media {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
-  
-  
-  
-  color: #FFFFFF;
-  
+  margin-bottom: 37px;
+
+  color: #ffffff;
+
   opacity: 0.9;
 }
-#footer .copy_rights .rights {
+#footer .copy_rights {
+  margin-top: 60px;
   padding-top: 16px;
+  padding-bottom: 16px;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.35);
 }
@@ -719,5 +728,3 @@ body[dir="rtl"] #footer  .social {
   line-height: 22px;
   color: rgba(255, 255, 255, 0.8);
 }
-
-
