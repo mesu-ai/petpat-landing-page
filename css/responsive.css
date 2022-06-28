@@ -95,10 +95,9 @@
     right: -3%;
   }
 
-  #stories #stories-slider .stories-img-1 {
-    height: 500px;
-  }
 
+
+  #stories #stories-slider .stories-img-1,
   #stories #stories-slider .stories-img-2,
   #stories #stories-slider .stories-img-3,
   #stories #stories-slider .stories-img-4 {
@@ -111,7 +110,9 @@
     font-size: 40px;
     line-height: 54px;
   }
-
+  #about .about-container{
+    margin-bottom: 0px;
+  }
   .padding-bottom-60 {
     padding-bottom: 30px;
   }

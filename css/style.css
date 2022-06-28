@@ -315,7 +315,7 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 #feature .feature-header .feature-header-title {
   font-family: "Uni Neue";
   font-style: normal;
-  font-weight: bolder;
+  font-weight: 800;
   font-size: 52px;
   line-height: 70px;
   text-align: center;
@@ -608,7 +608,8 @@ body[dir="rtl"]
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-  color: #717b84;
+  font-weight: bold;
+  color: #0c1217;
   border: 1.5px solid #f2f2f2;
   border-radius: 12px;
   padding: 17px 24px !important;
@@ -620,6 +621,8 @@ body[dir="rtl"]
   border-radius: 12px;
   height: 200px;
   padding: 17px 24px !important;
+  font-weight: bold;
+  color: #0c1217;
 }
 
 #contact input.input-field:focus::placeholder,
