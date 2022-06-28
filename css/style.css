@@ -375,10 +375,10 @@ body[dir="rtl"]
   li::before {
   content: "";
   position: absolute;
-  left: -5px;
+  left: 0px;
   width: 28px;
   height: 30px;
-  top: 1px;
+  top: 8px;
   background: url("../assets/features/tick-circle.png") no-repeat;
 }
 
@@ -389,7 +389,7 @@ body[dir="rtl"]
   .feature-card-body-checkmark
   li::before {
   left: inherit !important;
-  right: -5px;
+  right: 0px;
 }
 
 #feature .feature-card .feature-card-body .explore li::before {
@@ -520,7 +520,7 @@ body[dir="rtl"]
 }
 #stories .mobile-stories .stories-img .card-overlay {
   opacity: 1 !important;
-  background: initial !important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%) !important;
 }
 
 .card-overlay {
@@ -592,8 +592,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 28px;
 color: #0C1217;
-
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 #contact .input-field {
   font-family: "Mulish";
