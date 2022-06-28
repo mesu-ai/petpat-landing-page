@@ -1,16 +1,22 @@
 @font-face {
     font-family: 'Uni Neue';
-    src: url('UniNeueRegular.woff2') format('woff2'),
-        url('UniNeueRegular.woff') format('woff');
-    font-weight: 500;
+    src: url('UniNeueHeavy.eot');
+    src: url('UniNeueHeavy.eot?#iefix') format('embedded-opentype'),
+        url('UniNeueHeavy.woff2') format('woff2'),
+        url('UniNeueHeavy.woff') format('woff'),
+        url('UniNeueHeavy.ttf') format('truetype');
+    font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Uni Neue';
-    src: url('UniNeueBold.woff2') format('woff2'),
-        url('UniNeueBold.woff') format('woff');
+    src: url('UniNeueBold.eot');
+    src: url('UniNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('UniNeueBold.woff2') format('woff2'),
+        url('UniNeueBold.woff') format('woff'),
+        url('UniNeueBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -18,17 +24,23 @@
 
 @font-face {
     font-family: 'Uni Neue';
-    src: url('UniNeueLight.woff2') format('woff2'),
-        url('UniNeueLight.woff') format('woff');
-    font-weight: 300;
+    src: url('UniNeueRegular.eot');
+    src: url('UniNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('UniNeueRegular.woff2') format('woff2'),
+        url('UniNeueRegular.woff') format('woff'),
+        url('UniNeueRegular.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Uni Neue';
-    src: url('UniNeueLight.woff2') format('woff2'),
-        url('UniNeueLight.woff') format('woff');
+    src: url('UniNeueLight.eot');
+    src: url('UniNeueLight.eot?#iefix') format('embedded-opentype'),
+        url('UniNeueLight.woff2') format('woff2'),
+        url('UniNeueLight.woff') format('woff'),
+        url('UniNeueLight.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;

@@ -101,7 +101,6 @@
   display: none;
 }
 
-
 #stories-slider .slick-arrow {
   position: absolute;
   z-index: 2;
@@ -112,25 +111,18 @@
   border-radius: 18px;
   padding: 14px 18px;
   align-items: center;
-  
+
   display: flex !important;
- 
 }
-#stories-slider .slick-arrow .fa-solid{
-    font-size: 18px;
-    width: 100%;
-    color: #526359;
+#stories-slider .slick-arrow .fa-solid {
+  font-size: 30px;
+  width: 100%;
+  color: #334859;
 }
 
 #stories-slider .slick-prev {
-   left: -7%;
-   
-  }
+  left: -7%;
+}
 #stories-slider .slick-next {
-   right: -7%;
-   
-  }
-
-
-
-
+  right: -7%;
+}
