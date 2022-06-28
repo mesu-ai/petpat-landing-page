@@ -101,7 +101,10 @@
     justify-content: center;
     align-items: center;
   }
-
+  .feature-card-header{
+    margin-top: 10px;
+    margin-bottom: -24px;
+  }
   .feature-card-header-disc {
     font-style: normal;
     font-weight: 400;
