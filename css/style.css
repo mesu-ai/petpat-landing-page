@@ -115,8 +115,8 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 
 /* header css start */
 
-#header{
-  border: 1.5px solid #ECECEC;
+#header {
+  border: 1.5px solid #ececec;
 }
 
 #header .nav-link {
@@ -300,7 +300,11 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 #feature {
   padding-top: 80px;
   padding-bottom: 80px;
-  background: linear-gradient(180deg, #F0F7FD 9.46%, rgba(249, 249, 249, 0) 106.41%);
+  background: linear-gradient(
+    180deg,
+    #f0f7fd 9.46%,
+    rgba(249, 249, 249, 0) 106.41%
+  );
 }
 
 #feature .feature-header {
@@ -309,12 +313,12 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 }
 
 #feature .feature-header .feature-header-title {
-  font-family: 'Uni Neue';
-font-style: normal;
-font-weight: bolder;
-font-size: 52px;
-line-height: 70px;
-text-align: center;
+  font-family: "Uni Neue";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 52px;
+  line-height: 70px;
+  text-align: center;
 
   color: #0c1217;
 }
@@ -520,7 +524,11 @@ body[dir="rtl"]
 }
 #stories .mobile-stories .stories-img .card-overlay {
   opacity: 1 !important;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%) !important;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.85) 100%
+  ) !important;
 }
 
 .card-overlay {
@@ -586,12 +594,12 @@ body[dir="rtl"]
 }
 #contact .input-label {
   display: block;
-  font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-color: #0C1217;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0c1217;
   margin-bottom: 10px;
 }
 #contact .input-field {
@@ -605,6 +613,7 @@ color: #0C1217;
   border-radius: 12px;
   padding: 17px 24px !important;
 }
+
 #contact textarea {
   background: #ffffff;
   border: 1.5px solid #f2f2f2;
@@ -613,9 +622,10 @@ color: #0C1217;
   padding: 17px 24px !important;
 }
 
-#contact .input-field:focus, #contact .textarea:focus{
+#contact input.input-field:focus::placeholder,
+#contact textarea.textarea:focus::placeholder {
   font-weight: bold;
-  color: black;
+  color: #0c1217;
 }
 #contact .sendbtn {
   font-family: "Uni Neue";

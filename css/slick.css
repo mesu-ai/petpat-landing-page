@@ -111,7 +111,7 @@
   border-radius: 18px;
   padding: 14px 18px;
   align-items: center;
-
+ justify-content: center;
   display: flex !important;
 }
 #stories-slider .slick-arrow .fa-solid {
