@@ -127,6 +127,7 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   line-height: 23px;
   color: #2c3951;
 }
+
 #header .buttonGroup {
   background: rgb(222, 240, 255);
   border-radius: 23px;
@@ -136,7 +137,8 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   box-shadow: none;
   border: none !important;
 }
-#header .buttonGroup > .btnText {
+
+#header .buttonGroup>.btnText {
   font-family: "Uni Neue";
   font-style: normal;
   font-weight: 600;
@@ -144,7 +146,8 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   line-height: 20px;
   text-align: center;
 }
-#header .buttonGroup > .tanslateBtn {
+
+#header .buttonGroup>.tanslateBtn {
   border-radius: 22px;
   width: 54px;
   height: 36px;
@@ -153,7 +156,8 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   justify-content: center;
   background: #def0ff;
 }
-#header .buttonGroup > .active {
+
+#header .buttonGroup>.active {
   background: #51b0ed;
   color: white;
 }
@@ -188,6 +192,7 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 
   color: #4a4e51;
 }
+
 #welcome .app-down-image {
   margin-top: 60px;
 }
@@ -251,6 +256,7 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   bottom: -11%;
   transition: all 600ms;
 }
+
 #welcome .mobile-tansfrom .card-bottom-left:hover {
   transition: all 600ms;
   width: 88%;
@@ -267,6 +273,7 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 #about {
   margin-top: 60px;
 }
+
 #about .about-container {
   background: #f5feff;
   border-radius: 32px;
@@ -300,11 +307,9 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 #feature {
   padding-top: 80px;
   padding-bottom: 80px;
-  background: linear-gradient(
-    180deg,
-    #f0f7fd 9.46%,
-    rgba(249, 249, 249, 0) 106.41%
-  );
+  background: linear-gradient(180deg,
+      #f0f7fd 9.46%,
+      rgba(249, 249, 249, 0) 106.41%);
 }
 
 #feature .feature-header {
@@ -364,32 +369,24 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 }
 
 
-body[dir="rtl"] #feature .feature-card .feature-card-body .feature-card-body-checkmark li  {
-  padding: 0 2.5em .25em 0 ;
+body[dir="rtl"] #feature .feature-card .feature-card-body .feature-card-body-checkmark li {
+  padding: 0 2.5em .25em 0;
 }
 
-#feature
-  .feature-card
-  .feature-card-body
-  .feature-card-body-checkmark
-  li::before {
+#feature .feature-card .feature-card-body .feature-card-body-checkmark li::before {
   content: "";
   position: absolute;
   left: 0px;
   width: 28px;
   height: 30px;
-  top: 8px;
+  top: 6px;
   background: url("../assets/features/tick-circle.png") no-repeat;
 }
 
-body[dir="rtl"]
-  #feature
-  .feature-card
-  .feature-card-body
-  .feature-card-body-checkmark
-  li::before {
+body[dir="rtl"] #feature .feature-card .feature-card-body .feature-card-body-checkmark li::before {
   left: inherit !important;
   right: 0px;
+  top:3px;
 }
 
 #feature .feature-card .feature-card-body .explore li::before {
@@ -490,17 +487,14 @@ body[dir="rtl"]
   color: #ffffff;
 }
 
-#stories
-  #stories-slider
-  .stories-img
-  .stories-overfly
-  .stories-overfly-title:hover {
+#stories #stories-slider .stories-img .stories-overfly .stories-overfly-title:hover {
   opacity: 0.7;
 }
 
 #stories #stories-slider .stories-img-4 {
   margin-top: 30px;
 }
+
 #stories #stories-slider .stories-img-2 .stories-overfly,
 #stories #stories-slider .stories-img-3 .stories-overfly {
   bottom: 5px;
@@ -518,13 +512,12 @@ body[dir="rtl"]
 .text-overlap {
   position: relative !important;
 }
+
 #stories .mobile-stories .stories-img .card-overlay {
   opacity: 1 !important;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.85) 100%
-  ) !important;
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.85) 100%) !important;
 }
 
 .card-overlay {
@@ -567,6 +560,7 @@ body[dir="rtl"]
   line-height: 70px;
   color: #0c1217;
 }
+
 #service .serviceInfo {
   font-family: "Mulish";
   font-style: normal;
@@ -579,6 +573,7 @@ body[dir="rtl"]
 #contact {
   background: #f9f9f9;
 }
+
 #contact .title {
   font-family: "Uni Neue";
   font-style: normal;
@@ -588,6 +583,7 @@ body[dir="rtl"]
   text-align: center;
   color: #0c1217;
 }
+
 #contact .input-label {
   display: block;
   font-family: "Mulish";
@@ -598,6 +594,7 @@ body[dir="rtl"]
   color: #0c1217;
   margin-bottom: 10px;
 }
+
 #contact .input-field {
   font-family: "Mulish";
   font-style: normal;
@@ -626,6 +623,7 @@ body[dir="rtl"]
   font-weight: bold;
   color: #0c1217;
 }
+
 #contact .sendbtn {
   font-family: "Uni Neue";
   font-style: normal;
@@ -709,9 +707,11 @@ body[dir="rtl"] #footer .social {
   padding-left: 13px;
   padding-right: 13px;
 }
+
 #footer .social li a.pinterest {
   padding: 8px 9px 8px 9px;
 }
+
 #footer .social li a.facebook {
   padding: 8px 11px 8px 11px;
 }
@@ -733,6 +733,7 @@ body[dir="rtl"] #footer .social {
 
   opacity: 0.9;
 }
+
 #footer .copy_rights {
   margin-top: 60px;
   padding-top: 16px;
@@ -740,6 +741,7 @@ body[dir="rtl"] #footer .social {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.35);
 }
+
 #footer .copy_rights .rights {
   font-style: normal;
   font-weight: 400;
