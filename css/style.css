@@ -363,13 +363,9 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   position: relative;
 }
 
-body[dir="rtl"]
-  #feature
-  .feature-card
-  .feature-card-body
-  .feature-card-body-checkmark
-  li {
-  padding: 0.25em 0 0 2.5em !important;
+
+body[dir="rtl"] #feature .feature-card .feature-card-body .feature-card-body-checkmark li  {
+  padding: 0 2.5em .25em 0 ;
 }
 
 #feature
