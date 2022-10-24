@@ -38,9 +38,10 @@
   <!-- https://pet-pat-landingpage.netlify.app/ -->
 
   <body>
-    <header id="header" class="py-2">
+    <header id="header" class="">
       <!--navbar start -->
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light p-3" style="
+      background-color: #51B0ED;">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img
@@ -65,36 +66,38 @@
             </div>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 pe-2">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#about">About</a>
-              </li>
-              <li class="nav-item mx-lg-4">
-                <a class="nav-link" href="#feature">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#stories">Stories</a>
-              </li>
-              <li class="nav-item mx-lg-4">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-            <div class="tanslateBtn-group center-container">
-              <div size="sm" class="border border-2 p-1 buttonGroup">
-                <button
-                  id="eng"
-                  class="active tanslateBtn border-0 p-2 btnText"
-                >
-                  EN
-                </button>
-                <button
-                  id="ar"
-                  class="tanslateBtn border-0 p-2 btnText text-center"
-                >
-                  AR
-                </button>
+           
+              <div class="tanslateBtn-group center-container mx-2">
+                <div size="sm" class="border border-2 p-1 buttonGroup">
+                  <button
+                    id="eng"
+                    class="active tanslateBtn border-0 p-2 btnText"
+                  >
+                    EN
+                  </button>
+                  <button
+                    id="ar"
+                    class="tanslateBtn border-0 p-2 btnText text-center"
+                  >
+                    AR
+                  </button>
+                </div>
               </div>
-            </div>
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 pe-2 ">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item mx-lg-4">
+                  <a class="nav-link" href="#feature">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#stories">Stories</a>
+                </li>
+                <li class="nav-item mx-lg-4">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+           
           </div>
         </div>
       </nav>
@@ -102,44 +105,39 @@
 
     <main>
       <!-- welcome section start -->
-      <section id="welcome" class="my-5 pb-lg-5">
-        <div class="container">
+      <section id="welcome" class="pb-lg-5 " style="margin-top:60px; margin-bottom: 50px;">
+        <div class="container-right px-3 px-md-0 overflow-hidden">
           <div class="row align-items-center">
-            <div class="col-12 col-lg-5  mt-4 mt-md-0">
-              <p
-                class="welcomeTitle center-container mb-0 fw-lighter display-2"
-              >
-                Welcome!
-              </p>
-              <h3 class="welcomeGoh center-container display-2"> Pet Pat</h3>
-
-              
-                <p class="welcomeText mt-3">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem Ipsum has been the industry's standard.
+            <div class="col-12 col-lg-6  mt-4 mt-md-0">
+                <p
+                  class="welcomeTitle center-container mb-0 fw-lighter display-2"
+                >
+                  Welcome!
                 </p>
-                <div class="app-down-image">
-                  <img
-                    src="./assets/welcome/app.png"
-                    alt=""
-                    class="mt-sm-0 my-2"
-                  />
-                  <img
-                    src="./assets/welcome/google.png"
-                    alt=""
-                    class="mx-3 mx-md-3 mx-lg-0 mx-xl-4 mt-sm-0 my-2 app-down-google"
-                  />
-
-              </div>
-              
+                <h3 class="welcomeGoh center-container display-2"> Pet Pat</h3>
+                  <p class="welcomeText mt-3">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard.
+                  </p>
+                  <div class="app-down-image">
+                    <img
+                      src="./assets/welcome/app.png"
+                      alt=""
+                      class="mt-sm-0 my-2"
+                    />
+                    <img
+                      src="./assets/welcome/google.png"
+                      alt=""
+                      class="mx-3 mx-md-3 mx-lg-0 mx-xl-4 mt-sm-0 my-2 app-down-google"
+                    />
+                </div>
             </div>
-
             <div
-              class="text-center col-12 col-lg-7 mt-3 mt-lg-0  order-md-2"
+              class="text-center col-12 col-lg-6 mt-3 mt-lg-0  order-md-2"
             >
               <div class="mobile-tansfrom">
                 <img
-                  class="welcomeImg w-100 h-100"
+                  class=" welcomeImg w-100 h-100"
                   src="/assets/welcome/Group1000002928.png"
                   alt=""
                   height=""
@@ -149,7 +147,7 @@
             </div>
           </div>
         </div>
-      </section>
+    </section>
 
       <!-- feature section start -->
 

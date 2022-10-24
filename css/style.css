@@ -122,10 +122,15 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 #header .nav-link {
   font-family: "Mulish";
   font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 22px;
   line-height: 23px;
-  color: #2c3951;
+
+  color: #FFFFFF;
+}
+
+body[dir="rtl"] .navbar-brand {
+  margin-left: 1rem;
 }
 
 #header .buttonGroup {
@@ -164,11 +169,18 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 
 /* welcome css start */
 
+/* #welcome .container-right {
+  padding-left: 15px; 
+  margin-left: auto; 
+  width: calc(1199px + (50% - 1199px / 2));
+} */
+
 #welcome .welcomeTitle {
   font-family: "Uni Neue";
   font-style: normal;
   font-weight: 400;
-  font-size: 54px;
+  /* font-size: 54px; */
+  font-size: 64px;
   line-height: 73px;
   color: #51b0ed;
 }
@@ -177,7 +189,8 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   font-family: "Uni Neue";
   font-style: normal;
   font-weight: 700;
-  font-size: 72px;
+  /* font-size: 72px; */
+  font-size: 85px;
   line-height: 97px;
   color: #0c1217;
 }
@@ -186,7 +199,8 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 24px;
   line-height: 32px;
   /* text-align: justify; */
 
@@ -199,7 +213,7 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
 
 #welcome .mobile-tansfrom {
   position: relative;
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 
 #welcome .mobile-tansfrom .card-right {
@@ -296,7 +310,8 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
-  font-size: 21px;
+  /* font-size: 21px; */
+  font-size: 20px;
   line-height: 44px;
   color: #0c1217;
 
@@ -337,8 +352,10 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   font-family: "Uni Neue";
   font-style: normal;
   font-weight: 700;
-  font-size: 34px;
-  line-height: 46px;
+  /* font-size: 34px;
+  line-height: 46px; */
+  font-size: 36px;
+  line-height: 49px;
   color: #0c1217;
 }
 
@@ -347,8 +364,10 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 28px;
+  /* font-size: 15px;
+  line-height: 28px; */
+  font-size: 20px;
+  line-height: 29px;
 
   color: #4c4f4d;
 }
@@ -357,8 +376,10 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 28px;
+  /* font-size: 15px;
+  line-height: 28px; */
+  font-size: 20px;
+  line-height: 29px;
   list-style: none;
   margin-bottom: 18px;
   /* identical to box height, or 187% */
@@ -386,7 +407,7 @@ body[dir="rtl"] #feature .feature-card .feature-card-body .feature-card-body-che
 body[dir="rtl"] #feature .feature-card .feature-card-body .feature-card-body-checkmark li::before {
   left: inherit !important;
   right: 0px;
-  top:3px;
+  top: 3px;
 }
 
 #feature .feature-card .feature-card-body .explore li::before {
@@ -408,14 +429,14 @@ body[dir="rtl"] #feature .feature-card .feature-card-body .feature-card-body-che
   background: linear-gradient(180deg, #f2fffb 0%, rgba(242, 255, 251, 0) 100%);
 }
 
-#stories .stories-head .stories-head-title {
+/* #stories .stories-head .stories-head-title {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 79px;
   text-align: center;
   color: #101e16;
-}
+} */
 
 #stories .stories-head {
   padding-top: 30px;
@@ -545,11 +566,13 @@ body[dir="rtl"] #feature .feature-card .feature-card-body .feature-card-body-che
 #service .joinUs {
   font-family: "Uni Neue";
   font-style: normal;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-weight: 700;
   font-size: 30px;
   line-height: 41px;
   text-transform: uppercase;
-  color: #22e1a8;
+  /* color: #22e1a8; */
+  color: #6EECC7;
 }
 
 #service .serviceTitle {
@@ -588,7 +611,8 @@ body[dir="rtl"] #feature .feature-card .feature-card-body .feature-card-body-che
   display: block;
   font-family: "Mulish";
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
+  font-weight: 700;
   font-size: 16px;
   line-height: 28px;
   color: #0c1217;
@@ -647,9 +671,12 @@ body[dir="rtl"] #feature .feature-card .feature-card-body .feature-card-body-che
 
 #footer .social-side .social-side-title {
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400;
   font-size: 36px;
-  line-height: 57px;
+  line-height: 57px; */
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
   color: #ffffff;
 }
 
@@ -657,7 +684,8 @@ body[dir="rtl"] #feature .feature-card .feature-card-body .feature-card-body-che
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29px;
+  /* line-height: 29px; */
+  line-height: 23px;
 
   color: #ffffff;
 
@@ -744,8 +772,11 @@ body[dir="rtl"] #footer .social {
 
 #footer .copy_rights .rights {
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 22px; */
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
   color: rgba(255, 255, 255, 0.8);
 }
