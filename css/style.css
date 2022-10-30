@@ -119,6 +119,15 @@ body[dir="rtl"] .animated-icon1.open span:nth-child(2) {
   border: 1.5px solid #ececec;
 }
 
+#header .navbar-nav{
+  margin-left: auto;
+}
+
+body[dir="rtl"] #header .navbar-nav{
+  margin-right: auto;
+  margin-left: inherit;
+}
+
 #header .nav-link {
   font-family: "Mulish";
   font-style: normal;
@@ -154,8 +163,8 @@ body[dir="rtl"] .navbar-brand {
 
 #header .buttonGroup>.tanslateBtn {
   border-radius: 22px;
-  width: 54px;
-  height: 36px;
+  width: 51px;
+  height: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -320,8 +329,8 @@ body[dir="rtl"] .navbar-brand {
 
 /* feature css start */
 #feature {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 110px;
+  padding-bottom: 110px;
   background: linear-gradient(180deg,
       #f0f7fd 9.46%,
       rgba(249, 249, 249, 0) 106.41%);
@@ -329,7 +338,7 @@ body[dir="rtl"] .navbar-brand {
 
 #feature .feature-header {
   text-align: center;
-  padding-bottom: 47px;
+  /* padding-bottom: 10px; */
 }
 
 #feature .feature-header .feature-header-title {

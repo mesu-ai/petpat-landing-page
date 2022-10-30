@@ -279,13 +279,13 @@
   }
 
   #feature {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 0px;
   }
 
-  #feature .feature-header {
+  /* #feature .feature-header {
     padding-bottom: 30px;
-  }
+  } */
 
   #feature .feature-header .feature-header-title {
     font-style: normal;
